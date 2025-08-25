@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Melhousen Trucking – FMCSA-compliant box truck freight across Florida and beyond.">
+  <title>Melhousen Trucking | Freight & Logistics</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Open+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="header">
+  <div class="logo">Melhousen Trucking</div>
+  <nav class="nav" id="navMenu">
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#fleet">Fleet</a>
+    <a href="#compliance">Compliance</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">&#9776;</button>
+</header>
+
+<section class="hero" style="background-image:url('images/hero.jpg');">
+  <div class="hero-content">
+    <h1>Reliable Box Truck Freight</h1>
+    <p>FMCSA-compliant, insured, and broker-ready. Serving Florida and the Southeast with precision.</p>
+    <div class="hero-buttons">
+      <a href="#contact" class="btn-primary">Request a Quote</a>
+      <a href="files/Melhousen_Broker_Packet.pdf" target="_blank" class="btn-secondary">?? Broker Packet</a>
+      <a href="https://yourtrackingportal.com" target="_blank" class="btn-secondary">?? Load Tracking</a>
+    </div>
+  </div>
+</section>
+
+<section class="trust-bar">
+  <div>USDOT: 4017918</div>
+  <div>MC: Pending Activation</div>
+  <div> Liability /  Cargo</div>
+  <div><a href="https://safer.fmcsa.dot.gov/CompanySnapshot.aspx?query_string=4017918" target="_blank">FMCSA Verified</a></div>
+</section>
+
+<section id="about" class="image-section" style="background-image:url('images/about.jpg');">
+  <div class="overlay">
+    <h2>About Us</h2>
+    <p>Founded by Jamel Housen, Melhousen Trucking blends enterprise-level discipline with small-fleet agility. We deliver more than freight—we deliver trust.</p>
+  </div>
+</section>
+
+<section id="services">
+  <h2>Our Services</h2>
+  <div class="service-grid">
+    <div class="card fade-in">
+      <img src="images/interstate.jpg" alt="Interstate Freight" loading="lazy">
+      <h3>Interstate Freight</h3>
+      <p>Box truck deliveries across state lines for brokers and shippers.</p>
+    </div>
+    <div class="card fade-in">
+      <img src="images/regional.jpg" alt="Regional Freight" loading="lazy">
+      <h3>Regional & Local</h3>
+      <p>Serving the Florida Panhandle and Gulf Coast with reliable service.</p>
+    </div>
+    <div class="card fade-in">
+      <img src="images/dedicated.jpg" alt="Dedicated Runs" loading="lazy">
+      <h3>Dedicated Runs</h3>
+      <p>Consistent lanes for repeat customers with guaranteed capacity.</p>
+    </div>
+    <div class="card fade-in">
+      <img src="images/expedited.jpg" alt="Expedited Freight" loading="lazy">
+      <h3>Expedited</h3>
+      <p>Priority handling for urgent loads with real-time tracking.</p>
+    </div>
+  </div>
+</section>
+
+<section id="fleet" class="image-section" style="background-image:url('images/fleet.jpg');">
+  <div class="overlay">
+    <h2>Fleet Overview</h2>
+    <p>26' box truck | ELD compliant | FMCSA registered | Clean branding | Safety protocols in place</p>
+  </div>
+</section>
+
+<section id="compliance" class="image-section" style="background-image:url('images/compliance.jpg');">
+  <div class="overlay">
+    <h2>Compliance & Safety</h2>
+    <ul>
+      <li>USDOT: 4017918</li>
+      <li>MC: Pending Activation</li>
+      <li>Insurance:  liability /  cargo</li>
+      <li>BOC-3 Filed</li>
+      <li>Safety Audit Folder Ready</li>
+      <li>Driver Qualification Files</li>
+      <li>ELD Compliant</li>
+    </ul>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact Us</h2>
+  <div class="contact-grid">
+    <div>
+      <p>?? (850) 320-8384</p>
+      <p>?? dispatch@melhousen.com</p>
+      <p>?? 4566 E Hwy 20, Ste 104-923, Niceville, FL 32578</p>
+    </div>
+    <form action="https://formspree.io/f/yourformid" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <input type="text" name="company" placeholder="Company">
+      <textarea name="details" rows="5" placeholder="Load Details"></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </div>
+</section>
+
+<footer>
+  &copy; 2025 Melhousen Trucking | All Rights Reserved
+</footer>
+
+<script>
+  const navToggle = document.getElementById('navToggle');
+  const navMenu = document.getElementById('navMenu');
+  navToggle.addEventListener('click', () => {
+    navMenu.classList.toggle('nav-open');
+  });
+</script>
+
+</body>
+</html>
